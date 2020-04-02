@@ -459,7 +459,7 @@ class __AddDebitCardWidgetState extends State<_AddDebitCardWidget> {
                         ),
                       ),
                       subtitle: Text(
-                        "You will be charged $nairaSymbol${widget.amount}",
+                        "You will be charged Ksh${widget.amount}",
                         style: Theme.of(context).textTheme.subtitle.copyWith(
                               color: Colors.grey,
                             ),
